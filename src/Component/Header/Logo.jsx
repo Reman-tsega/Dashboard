@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../../assets/dirlink_logo.png'
 import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 
@@ -21,7 +20,7 @@ function Logo() {
             <a href='/dashboard'>
             {/* {showSideBar ? <img src={logo} alt="logo" className="w-full  " />:<img src={logo} alt="Logo" className="h-12 w-20 ml-[-20px]" />} */}
         
-            <img className="graphic-headline-icon max-w-12 max-h-12 md:max-w-24 md:max-h-24 bg-white" src="https://assets.graphic-portal.com/spaces/-Ns4Y6W9ApHcBTBEzu9S/graphics/-NsNham4iKudej0xLINo/versions/-NsNhi7ANB5ZktQHydB2/main/bundestag.png" alt="icon" /> 
+            <img className="graphic-headline-icon max-w-12 max-h-12 md:max-w-20 md:max-h-20 p-4 bg-white" src="https://assets.graphic-portal.com/spaces/-Ns4Y6W9ApHcBTBEzu9S/graphics/-NsNham4iKudej0xLINo/versions/-NsNhi7ANB5ZktQHydB2/main/bundestag.png" alt="icon" /> 
 
           
         </a> 
